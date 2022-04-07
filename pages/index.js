@@ -16,14 +16,34 @@ export default function Home() {
           Deyvid Antonio <a href="https://github.com/DeyvidA">Arauz</a> Cruz
         </h1>
         <div className="icons">
-          <a href="https://www.linkedin.com/in/deyvida/"></a>
-          <a href="https://www.upwork.com/freelancers/~01537189540f1957e2"></a>
-          <a href="https://github.com/DeyvidA"></a>
-          <a href="https://gitlab.com/deyvida"></a>
-          <Linkedin />
-          <Upwork />
-          <GitLab />
-          <Github />
+          <a
+            target="_blank"
+            className="linkIcon"
+            href="https://www.linkedin.com/in/deyvida/"
+          >
+            <Linkedin />
+          </a>
+          <a
+            target="_blank"
+            className="linkIcon"
+            href="https://www.upwork.com/freelancers/~01537189540f1957e2"
+          >
+            <Upwork />
+          </a>
+          <a
+            target="_blank"
+            className="linkIcon"
+            href="https://github.com/DeyvidA"
+          >
+            <GitLab />
+          </a>
+          <a
+            target="_blank"
+            className="linkIcon"
+            href="https://gitlab.com/deyvida"
+          >
+            <Github />
+          </a>
         </div>
         <p className="description">
           Systems engineering student and <code>Web developer</code>
@@ -81,6 +101,9 @@ export default function Home() {
           width: 250px;
           display: flex;
           gap: 20px;
+        }
+        .linkIcon {
+          width: 40px;
         }
         .title a {
           color: #0070f3;
