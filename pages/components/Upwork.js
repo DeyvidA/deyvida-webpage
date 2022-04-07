@@ -1,4 +1,4 @@
-const Upwork = () => {
+export default function Upwork() {
   return (
     <svg
       enable-background="new 0 0 2500 2500"
@@ -12,6 +12,4 @@ const Upwork = () => {
       ></path>
     </svg>
   );
-};
-
-export { Upwork };
+}

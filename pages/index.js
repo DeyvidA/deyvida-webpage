@@ -1,8 +1,8 @@
 import Head from "next/head";
-import { Github } from "./Github";
-import { GitLab } from "./GItLab";
-import { Linkedin } from "./Linkedin";
-import { Upwork } from "./Upwork";
+import Github  from "./components/Github";
+import GitLab  from "./components/GItLab";
+import Linkedin  from "./components/Linkedin";
+import Upwork  from "./components/Upwork";
 
 export default function Home() {
   return (
